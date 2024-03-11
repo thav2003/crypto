@@ -1,5 +1,10 @@
- .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/desktop-wallpaper-scalable-blockchain-infrastructure-billions-of-transactions-counting-solana.jpg");
+.u-section-1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("images/desktop-wallpaper-scalable-blockchain-infrastructure-billions-of-transactions-counting-solana.jpg");
   background-position: 50% 50%;
 }
 
@@ -29,7 +34,7 @@
 }
 
 .u-section-1 .u-image-3 {
-  width: 524px;
+  width: 100%;
   height: 524px;
   margin: 0 auto 6px;
 }
@@ -84,7 +89,12 @@
 .u-section-1 .u-image-2,
 .u-section-1 .u-image-2:before,
 .u-section-1 .u-image-2 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style,
+    border-width, border-top-width, border-left-width, border-right-width,
+    border-bottom-width, custom-border, borders, box-shadow, text-shadow,
+    opacity, border-radius, stroke, border-color, font-size, font-style,
+    font-weight, text-decoration, letter-spacing, transform, background-image,
+    image-zoom, background-size, background-position;
 }
 
 .u-section-1 .u-image-2.u-image-2.u-image-2:hover {
@@ -101,7 +111,8 @@
 
 .u-container-layout.hover .u-section-1 .u-image-2 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-} .u-section-2 {
+}
+.u-section-2 {
   background-image: none;
 }
 
@@ -152,7 +163,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-2 {
+  .u-section-2 {
     min-height: 479px;
   }
 
@@ -162,7 +173,7 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-2 {
+  .u-section-2 {
     min-height: 401px;
   }
 
@@ -172,7 +183,7 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-2 {
+  .u-section-2 {
     min-height: 905px;
   }
 
@@ -187,7 +198,7 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-2 {
+  .u-section-2 {
     min-height: 625px;
   }
 
@@ -214,7 +225,8 @@
     margin-top: 30px;
     margin-bottom: 0;
   }
-} .u-section-3 {
+}
+.u-section-3 {
   background-image: none;
 }
 
